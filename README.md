@@ -84,8 +84,8 @@ environments.
 </p>
 
 
-A walkthrough of saved W006 experiments demonstrating native goal selection, consequence-driven priority changes, and their limitations. 
+A short walkthrough of saved W006 experiments demonstrating native goal selection, consequence-driven priority changes, and their limitations. 
 This is not a live runtime demonstration or evidence of AGI/RSI.
 
 
-*ARIA remains as experimental, research architecture. AGI and RSI are long-term research objectives, not established capabilities*
+*ARIA remains an experimental research architecture. AGI and RSI are long-term research objectives, not established capabilities*
