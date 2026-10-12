@@ -49,3 +49,9 @@ W006 verified this pathway by using controlled, synthetic scenarios. The resulti
 This does not yet establish general learning improvement or production-level autonomous cognition.
 
 
+
+## W006 Experiment Results
+
+![W006 Synthetic Outcome Comparison](images/priority_comparison.svg)
+
+The controlled experiments show how verified synthetic action outcomes can change ARIA's persistent goal priorities and subsequent decisions
