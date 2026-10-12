@@ -73,7 +73,23 @@ environments.
 
 ## Video Demonstration
 
-[![Watch the ARIA W006 Demonstration](https://img.youtube.com/vi/veEMn96JF1c/hqdefault.jpg)](https://www.youtube.com/watch?v=veEMn96JF1c)
+## Video Demonstration
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=veEMn96JF1c">
+    <img src="images/aria_thumbnail.png" alt="ARIA W006 Demonstration Thumbnail" width="700">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Watch the ARIA W006 Demonstration</strong>
+</p>
+
+A walkthrough of saved W006 experiments demonstrating native goal selection, consequence-driven priority changes, and their limitations.
+
+This is not a live runtime demonstration or evidence of AGI/RSI.
+
+*ARIA remains an experimental research architecture. AGI and RSI are long-term research objectives, not established capabilities.*
 
 A walkthrough of saved W006 experiments demonstrating native goal selection, consequence-driven priority changes, and their limitations. This is not a live runtime demonstration or evidence of AGI/RSI.
 
