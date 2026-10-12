@@ -20,18 +20,19 @@ improvements in autonomy, learning, & generalization.
 W006 (current stage) demonstrates a controlled feedback pathway connecting native goal selection, action execution, verified synthetic consequences, and 
 continuous priority adaptation.
 
+
+
 ```mermaid
-[
 flowchart TD
-    A["Competing Goals<br/>Persistent Goal State"]
-    B["Native Decision System<br/>Goal Selection"]
+    A["Competing Goals"]
+    B["Native Decision System"]
     C["Runtime Dispatch"]
-    D["Plan Runner<br/>Action Execution"]
-    E["Controlled Environment<br/>Synthetic Action Outcome"]
-    F["Independent Feedback Verification"]
-    G["Appraisal & Goal Priority Revision"]
-    H[("SQLite<br/>Persistent Goal State")]
-    I["Future Native Goal Selection"]
+    D["Plan Runner"]
+    E["Synthetic Action Consequence"]
+    F["Verified Feedback"]
+    G["Appraisal and Priority Revision"]
+    H[("Persistent SQLite State")]
+    I["Future Goal Selection"]
 
     A --> B
     B --> C
@@ -41,8 +42,7 @@ flowchart TD
     F --> G
     G --> H
     H --> I
-
-    I -. "Updated priorities inform<br/>later arbitration" .-> B
+    I -.-> B
 
     classDef storage fill:#20334a,stroke:#7aa7d8,color:#ffffff
     classDef decision fill:#21473e,stroke:#67c5ab,color:#ffffff
@@ -53,4 +53,4 @@ flowchart TD
     class B,I decision
     class C,D action
     class E,F,G feedback
-]
+```
