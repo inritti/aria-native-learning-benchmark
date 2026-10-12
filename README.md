@@ -20,19 +20,19 @@ improvements in autonomy, learning, & generalization.
 W006 (current stage) demonstrates a controlled feedback pathway connecting native goal selection, action execution, verified synthetic consequences, and 
 continuous priority adaptation.
 
-
+The following diagram illustrates the decision and feedback pathway tested during W006.
 
 ```mermaid
 flowchart TD
-    A["Competing Goals"]
-    B["Native Decision System"]
-    C["Runtime Dispatch"]
-    D["Plan Runner"]
-    E["Synthetic Action Consequence"]
-    F["Verified Feedback"]
-    G["Appraisal and Priority Revision"]
-    H[("Persistent SQLite State")]
-    I["Future Goal Selection"]
+    A["Current goals and priorities"]
+    B["Native goal arbitration"]
+    C["Runtime dispatch"]
+    D["PlanRunner execution"]
+    E["Synthetic action outcome"]
+    F["Outcome verification and appraisal"]
+    G["Priority update"]
+    H[("SQLite: goal state and revision history")]
+    I["Next goal arbitration"]
 
     A --> B
     B --> C
@@ -42,15 +42,10 @@ flowchart TD
     F --> G
     G --> H
     H --> I
-    I -.-> B
-
-    classDef storage fill:#20334a,stroke:#7aa7d8,color:#ffffff
-    classDef decision fill:#21473e,stroke:#67c5ab,color:#ffffff
-    classDef action fill:#303a58,stroke:#9bade8,color:#ffffff
-    classDef feedback fill:#51402a,stroke:#d7a85c,color:#ffffff
-
-    class A,H storage
-    class B,I decision
-    class C,D action
-    class E,F,G feedback
 ```
+
+W006 verified this pathway by using controlled, synthetic scenarios. The resulting priority changes were persisted and used during subsequent arbitration. 
+
+This does not yet establish general learning improvement or production-level autonomous cognition.
+
+
