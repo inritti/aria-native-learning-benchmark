@@ -73,8 +73,6 @@ environments.
 
 ## Video Demonstration
 
-## Video Demonstration
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=veEMn96JF1c">
     <img src="images/aria_thumbnail.png" alt="ARIA W006 Demonstration Thumbnail" width="700">
