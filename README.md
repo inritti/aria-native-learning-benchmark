@@ -71,6 +71,11 @@ W006 is a verified, scratch-only engineering milestone in ARIA's development.
 Future experiments will show authentic runtime feedback, measurable learning advantages, long-term retention, and generalization across unfamiliar
 environments.
 
+## Video Demonstration
+
+[![Watch the ARIA W006 Demonstration](https://img.youtube.com/vi/veEMn96JF1c/hqdefault.jpg)](https://www.youtube.com/watch?v=veEMn96JF1c)
+
+A walkthrough of saved W006 experiments demonstrating native goal selection, consequence-driven priority changes, and their limitations. This is not a live runtime demonstration or evidence of AGI/RSI.
 
 
 *ARIA remains as experimental, research architecture. AGI and RSI are long-term research objectives, not established capabilities*
